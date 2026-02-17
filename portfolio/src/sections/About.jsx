@@ -44,11 +44,11 @@ const About = () => {
                   whileHover={{ scale: 1.05, rotate: 2 }}
                   className="relative"
                 >
-                  <div className="w-48 h-48 md:w-56 md:h-56 rounded-lg overflow-hidden border-4 border-gold-500/30 shadow-2xl">
+                  <div className="w-48 h-98 md:w-76 md:h-76 rounded-lg overflow-hidden border-4 border-gold-500/30 shadow-2xl">
                     <img
-                      src="https://avatars.githubusercontent.com/u/178805412?v=4"
+                      src="public/Gemini_Generated_Image_ldm65ldm65ldm65l.png"
                       alt="Nithiish S D"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover object-top-[10px]"
                     />
                   </div>
                   {/* Decorative corner */}
@@ -116,7 +116,7 @@ const About = () => {
 
                 <div className="pt-4 border-t-2 border-gold-500/20">
                   <p className="font-body text-sm text-ink-600 italic">
-                    "Learning by building, improving by consistency"
+                  "Success is not to be pursued; it is to be attracted by the person you become"
                   </p>
                 </div>
               </div>

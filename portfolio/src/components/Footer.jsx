@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center space-y-6">
           {/* Social Links */}
-          <div className="flex items-center space-x-6">
+          {/* <div className="flex items-center space-x-6">
             <a
               href="https://github.com/NithiishSD"
               target="_blank"
@@ -34,21 +34,21 @@ const Footer = () => {
             >
               <Mail size={24} />
             </a>
-          </div>
+          </div> */}
 
           {/* Copyright */}
           <div className="text-center font-body text-sm text-parchment-200">
             <p className="flex items-center justify-center space-x-2">
-              <span>© {currentYear} Nithiish S D. Built with</span>
-              <Heart size={16} className="text-gold-400 fill-current" />
-              <span>and React</span>
+              <span>© {currentYear} Nithiish S D</span>
+            
+              
             </p>
           </div>
 
           {/* Tagline */}
           <div className="text-center">
-            <p className="font-serif italic text-parchment-300 text-sm">
-              Calm mind, disciplined builder
+            <p className="font-serif italic text-parchment-300 text-md">
+            "Life has no limitations, except the ones you make"
             </p>
           </div>
         </div>

@@ -43,7 +43,7 @@ const Navbar = () => {
             duration={500}
             className="font-serif text-2xl md:text-3xl font-bold text-ink-900 cursor-pointer hover:text-gold-500 transition-colors"
           >
-            NS<span className="text-gold-500">D</span>
+            <span className="text-gold-500">N</span>SD
           </Link>
 
           {/* Desktop Navigation */}
