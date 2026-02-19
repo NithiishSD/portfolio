@@ -60,7 +60,7 @@ const Journey = () => {
     {
       year: ' Present ',
       title: 'Full-Stack Development',
-      description: 'Working on multiple full-stack projects, mastering React, Flask, and database integration.',
+      description: 'Working on multiple full-stack projects, mastering React, node js,express js and database integration.',
       icon: Code,
       color: 'bg-gold-600',
     },
