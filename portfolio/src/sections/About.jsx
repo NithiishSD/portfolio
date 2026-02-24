@@ -46,7 +46,7 @@ const About = () => {
                 >
                   <div className="w-48 h-98 md:w-76 md:h-76 rounded-lg overflow-hidden border-4 border-gold-500/30 shadow-2xl">
                     <img
-                      src="./public/profile.png"
+                      src="/profile.png"
                       alt="Nithiish S D"
                       className="w-full h-full object-cover object-top-[10px]"
                     />
