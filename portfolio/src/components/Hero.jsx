@@ -103,7 +103,7 @@ const Hero = () => {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-8 py-4 bg-transparent border-2 border-gold-500 text-gold-600 font-sans font-semibold rounded-lg hover:bg-gold-500 hover:text-parchment-50 transition-all transform hover:scale-105 shadow-lg"
+              className="inline-block px-8 ps-10 py-4 bg-transparent border-2 border-gold-500 text-gold-600 font-sans font-semibold rounded-lg hover:bg-gold-500 hover:text-parchment-50 transition-all transform hover:scale-105 shadow-lg"
             >
               Download Resume
             </a>
@@ -119,7 +119,7 @@ const Hero = () => {
         >
           <Link to="about" smooth={true} duration={500}>
             <motion.div
-              animate={{ y: [0, 10, 0] }}
+              animate={{ x:[10] ,y: [15, 25, 15] }}
               transition={{ duration: 2, repeat: Infinity }}
               className="cursor-pointer text-gold-500 hover:text-gold-600"
             >
